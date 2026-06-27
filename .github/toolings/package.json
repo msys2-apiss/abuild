@@ -1,0 +1,12 @@
+{
+  "name": "msys2-apiss-sync-toolings",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@4.17.0",
+  "engines": {
+    "node": ">=26.0.0"
+  },
+  "scripts": {
+    "mirror-sync": "node src/mirror-sync/cli.ts"
+  }
+}
